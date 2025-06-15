@@ -1,8 +1,42 @@
-# Welcome to your Expo app 👋
+# Coffee-Slug
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Coffee Slug is a mobile app that helps you discover local coffee shops around you based on real-time distance. Whether you're exploring a new city or just looking for your next caffeine fix, Coffee Slug shows nearby cafés, gives directions, and even lets you track the places you've visited — like a personal coffee journal (I call it your "Coffee Git").
 
-## Get started
+For shop owners, it's an easy way to put your café on the map and bring in new customers.
+
+Whether you're a coffee lover or a café owner, Coffee Slug connects people to good coffee — one slug at a time.
+
+## 🌟 What It Does
+
+### For Coffee Lovers:
+
+- 🗺️ **Find Cafes Nearby** – See coffee shops around you, sorted by distance.
+- 📍 **Get Directions** – Tap and go with easy navigation to any listed shop.
+- 📋 **Explore Details** – View each shop's profile: hours, menu highlights, contact info, etc.
+- 📒 **Track Your Café Visits** – Keep a little travel log we call your "**Coffee Git**" (like a git history — but for coffee runs).
+
+### For Café Owners:
+
+- 🏪 **Add Your Shop** – Create a profile, drop a pin on the map, and show up in local searches.
+- 📈 **Attract Customers** – Get discovered by nearby users looking for a good brew.
+
+## 🛠️ Built With
+
+- **React Native** + **Expo** (for cross-platform mobile)
+- **React Navigation** (for smooth screen transitions)
+- **Location Services** using Geolocation API & React Native Maps
+- **Backend**: Node.js + Express (or Firebase – depending on version)
+- **Database**: MongoDB / Firebase Firestore
+- **AsyncStorage** for local visit history (your Coffee Git)
+
+## 💡 Use It For
+
+- Finding new coffee shops in your area or while traveling
+- Keeping a record of your coffee adventures
+- Planning a mini café crawl with friends
+- Helping local coffee shops grow their community
+
+## 🚀 Getting Started
 
 1. Install dependencies
 
@@ -11,40 +45,18 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```
 
 2. Start the app
-
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+You can run the app on:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo Go](https://expo.dev/go) app on your physical device
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📚 Learn More
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo documentation](https://docs.expo.dev/)
+- [React Native documentation](https://reactnative.dev/)
+- [React Navigation documentation](https://reactnavigation.org/)
